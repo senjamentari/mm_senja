@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Model\Detail_Penjualan;
+use Illuminate\Support\Str;
 
 class DetailPenjualanSeeder extends Seeder
 {
@@ -11,6 +13,6 @@ class DetailPenjualanSeeder extends Seeder
      */
     public function run()
     {
-        //
+        factory(App\Model\Detail_Penjualan::class,50)->create();
     }
 }

@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Model\Pembelian;
+use Illuminate\Support\Str;
 
 class PembelianSeeder extends Seeder
 {
@@ -11,6 +13,6 @@ class PembelianSeeder extends Seeder
      */
     public function run()
     {
-        //
+        factory(App\Model\Pembelian::class,50)->create();
     }
 }

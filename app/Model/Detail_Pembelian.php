@@ -6,5 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Detail_Pembelian extends Model
 {
-    
+    protected $table    = 'detail_pembelian';
+    protected $fillable = ['pembelian_id', 'barang_id', 'harga_beli', 'jumlah', 'sub_total'];
 }

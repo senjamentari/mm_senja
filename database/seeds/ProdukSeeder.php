@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Model\Produk;
+use Illuminate\Support\Str;
 
 class ProdukSeeder extends Seeder
 {

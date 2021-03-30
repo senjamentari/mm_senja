@@ -17,7 +17,13 @@ class DatabaseSeeder extends Seeder
         //$this->call(ProdukSeeder::class);
         //$this->call(BarangSeeder::class);
         //$this->call(PelangganSeeder::class);
-        $this->call(PenjualanSeeder::class);
+        //$this->call(PenjualanSeeder::class);
+        $this->call(TampungBayarSeeder::class);
+        //$this->call(PembelianSeeder::class);
+        //$this->call(DetailPembelianSeeder::class);
+        //$this->call(DetailPenjualanSeeder::class);
+
+
 
     }
 }
